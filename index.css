@@ -46,6 +46,36 @@ body {
     max-width: 33rem;
 }
 
+a {
+    display: block;
+
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+a:active {
+    color: grey;
+}
+
+ul {
+    line-height: 1.4;
+}
+
+li {
+    margin: .5em;
+}
+
 article {
     padding: 1rem;
 }
@@ -61,6 +91,5 @@ h2 {
 header {
     color: white;
     background-color: black;
-
 }
 
