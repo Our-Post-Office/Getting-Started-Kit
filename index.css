@@ -47,7 +47,7 @@ body {
 }
 
 a {
-    display: block;
+    display: inline-block;
 
 }
 
@@ -69,7 +69,13 @@ a:active {
 }
 
 ul {
+    list-style-type: square;
     line-height: 1.4;
+}
+
+ul a {
+    display: block;
+
 }
 
 li {
@@ -84,7 +90,6 @@ h1 {
 }
 
 h2 {
-
     font-size: 1.5rem;
 }
 
